@@ -80,9 +80,9 @@
     <p class="piPhoneP" >  iPhone Portrait</p>
 
       <p id="pContact1">Displays the size of your device screen</p>
-      <p id="wScreen"></p>
-      <p id="hScreen"></p>
-      <p id="oScreen"></p>
+      <p id="wScreen">Height</p>
+      <p id="hScreen">Width</p>
+      <p id="oScreen">Orientation</p>
     </div> 
   
  <script>
@@ -91,6 +91,7 @@
     var w=window.innerWidth;
     var h=window.innerHeight;
     var o=window.screen.orientation.type;
+    alert("Running WindowS");
     
     console.log("WindowSize: W= "+w+" H= "+h +" O="+o);
         var wS=document.getElementById("wScreen");
