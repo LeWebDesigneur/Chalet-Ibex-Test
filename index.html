@@ -13,11 +13,6 @@
 	<style>
   .Content{width:100%;height:100%;position:fixed;}
   .pVersion{   position:absolute;top:10%;width:100%;text-align: center;color:red;}
-    .pDesktop{   position:absolute;top:50%;width:100%;text-align: center;color:red;}
-    .piPadP{  position:absolute; top:55%;width:100%;text-align: center;color:red;}
-    .piPadL{   position:absolute;top:60%;width:100%;text-align: center;color:red;}
-    .piPhoneL{ position:absolute;  top:65%;width:100%;text-align: center;color:red;}
-    .piPhoneP{ position:absolute;  top:70%;width:100%;text-align: center;color:red;}
     #wScreen{position:absolute;top:30%;width:100%;text-align: center;color:red;}
     #hScreen{position:absolute;top:35%;width:100%;text-align: center;color:red;}
     #oScreen{position:absolute;top:40%;width:100%;text-align: center;color:red;}
@@ -25,6 +20,11 @@
   /*Computer Screen   W=1321 H=882*/
 @media  screen  and (min-width: 1101px)  { 
      .pDesktop{   display:block;}
+     .pDesktop{   position:absolute;top:50%;width:100%;text-align: center;color:red;}
+    .piPadP{  position:absolute; top:55%;width:100%;text-align: center;color:red;}
+    .piPadL{   position:absolute;top:60%;width:100%;text-align: center;color:red;}
+    .piPhoneL{ position:absolute;  top:65%;width:100%;text-align: center;color:red;}
+    .piPhoneP{ position:absolute;  top:70%;width:100%;text-align: center;color:red;}
     .piPadP{   display:none;}
     .piPadL{   display:none;}
     .piPhoneL{   display:none;}
@@ -34,6 +34,11 @@
 /*iPad Landscape: W=1080 H=684  */
 @media  screen  and ((((max-width: 1100px))) ) {   
   .pDesktop{   display:none;}
+  .pDesktop{   position:absolute;top:50%;width:100%;text-align: center;color:red;}
+    .piPadP{  position:absolute; top:55%;width:100%;text-align: center;color:red;}
+    .piPadL{   position:absolute;top:60%;width:100%;text-align: center;color:red;}
+    .piPhoneL{ position:absolute;  top:65%;width:100%;text-align: center;color:red;}
+    .piPhoneP{ position:absolute;  top:70%;width:100%;text-align: center;color:red;}
     .piPadP{   display:none;}
     .piPadL{   display:block;}
     .piPhoneL{   display:none;}
@@ -52,6 +57,11 @@
 /*Mobile  Landscape: W=800 H=331*/        
 @media  screen  and ((max-width: 820px) ) {
   .pDesktop{   display:none;}
+  .pDesktop{   position:absolute;top:50%;width:100%;text-align: center;color:red;}
+    .piPadP{  position:absolute; top:55%;width:100%;text-align: center;color:red;}
+    .piPadL{   position:absolute;top:60%;width:100%;text-align: center;color:red;}
+    .piPhoneL{ position:absolute;  top:65%;width:100%;text-align: center;color:red;}
+    .piPhoneP{ position:absolute;  top:70%;width:100%;text-align: center;color:red;}
     .piPadP{   display:none;}
     .piPadL{   display:none;}
     .piPhoneL{   display:block;}
@@ -74,7 +84,7 @@
 
   
   <div class="Content">     
-    <p class="pVersion" >  Version 1</p>
+    <p class="pVersion" >  Version 2</p>
     <p class="pDesktop" >  Desktop</p>
     <p class="piPadP" >  iPad Portrait</p>
     <p class="piPadL" >  iPad Landscape</p>
