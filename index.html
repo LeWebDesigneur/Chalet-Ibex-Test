@@ -57,14 +57,14 @@
     .piPhoneP{   display:none;}
 }
   
-/*Mobile  Portrait: W=414 H=715*/        
+/*Mobile  Portrait: W=414 H=715        
 @media only screen and ((max-height: 820px) and (orientation: portrait)) {
   .pDesktop{   display:none;}
     .piPadP{   display:none;}
     .piPadL{   display:none;}
     .piPhoneL{   display:none;}
     .piPhoneP{   display:block;}
-}
+}*/
  </style>
 	
 </head>
@@ -93,8 +93,10 @@
   alert("1");
     var h=window.innerHeight;
     alert("2");
+  //  var o=window.screen.orientation.type;
+    alert("3");
     
-  //  console.log("WindowSize: W= "+w+" H= "+h +" O="+o);
+    console.log("WindowSize: W= "+w+" H= "+h );//+" O="+o);
     alert("4");
         var wS=document.getElementById("wScreen");
         alert("5");
