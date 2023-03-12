@@ -16,28 +16,41 @@
 
   /*Computer Screen   W=1321 H=882*/
 /*iPad Landscape: W=1080 H=684  */
-@media  screen  and  (min-width: 400px)  {
-  .pDesktop{   display:none;}
+@media  screen  and  (min-width: 300px)  {
   .pDesktop{   position:absolute;top:50%;width:100%;text-align: center;color:red;}
     .piPadP{  position:absolute; top:55%;width:100%;text-align: center;color:red;}
     .piPadL{   position:absolute;top:60%;width:100%;text-align: center;color:red;}
     .piPhoneL{ position:absolute;  top:65%;width:100%;text-align: center;color:red;}
     .piPhoneP{ position:absolute;  top:70%;width:100%;text-align: center;color:red;}
+    .pDesktop{   display:none;}
     .piPadP{   display:none;}
-    .piPadL{   display:block;}
+    .piPadL{   display:none;}
     .piPhoneL{   display:none;}
+    .piPhoneP{   display:block;}
+}
+
+@media  screen  and  (min-width: 750px)  {
+  .pDesktop{   position:absolute;top:50%;width:100%;text-align: center;color:red;}
+    .piPadP{  position:absolute; top:55%;width:100%;text-align: center;color:red;}
+    .piPadL{   position:absolute;top:60%;width:100%;text-align: center;color:red;}
+    .piPhoneL{ position:absolute;  top:65%;width:100%;text-align: center;color:red;}
+    .piPhoneP{ position:absolute;  top:70%;width:100%;text-align: center;color:red;}
+    .pDesktop{   display:none;}
+    .piPadP{   display:block;}
+    .piPadL{   display:none;}
+    .piPhoneL{   display:block;}
     .piPhoneP{   display:none;}
 }
 
 @media  screen  and (min-width: 1000px)  { 
-     .pDesktop{   display:block;}
      .pDesktop{   position:absolute;top:50%;width:100%;text-align: center;color:red;}
     .piPadP{  position:absolute; top:55%;width:100%;text-align: center;color:red;}
     .piPadL{   position:absolute;top:60%;width:100%;text-align: center;color:red;}
     .piPhoneL{ position:absolute;  top:65%;width:100%;text-align: center;color:red;}
     .piPhoneP{ position:absolute;  top:70%;width:100%;text-align: center;color:red;}
+    .pDesktop{   display:block;}
     .piPadP{   display:none;}
-    .piPadL{   display:none;}
+    .piPadL{   display:block;}
     .piPhoneL{   display:none;}
     .piPhoneP{   display:none;}
 }
@@ -50,7 +63,7 @@
 
   
   <div class="Content">     
-    <p class="pVersion" >  Version 7</p>
+    <p class="pVersion" >  Version 8</p>
     <p class="pDesktop" >  Desktop</p>
     <p class="piPadP" >  iPad Portrait</p>
     <p class="piPadL" >  iPad Landscape</p>
