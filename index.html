@@ -1,0 +1,93 @@
+<!DOCTYPE html>   <!—Required at the start of an HTML code—>
+
+<html>   <!—Required at the start of the html program—>
+<head>
+	<title>	Chalet Ibex</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="chalet,Ibex,Les Gets, Mountain, montagne,ski">
+	<meta name="description" content="A description of the chalet">
+	<meta name="author" content="Yannick Aron, le plus beau des plus beaux">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="30">
+  <link rel="alternate" hreflang="fr" href="https://chalet-ibex.netlify.app/html/fr/index.html" />
+	<link rel="alternate" hreflang="en" href="https://chalet-ibex.netlify.app/html/en/index.html" />
+	<link rel="icon" type="image/x-icon" href="./Docs/Resources/favicon.ico">
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/FabIcon.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+  body{
+    background-color:black;
+    margin-left: 0px;
+    overflow:auto;
+  }
+    .Content{
+      position:fixed;
+      width:100%;
+    }
+  
+    video{
+      position:absolute;
+      height:60%;
+      width:60%;
+      left:20% ;
+      top:25%;
+    }
+
+    a{
+      position:absolute;
+      width:50%;
+      left:25%;
+      top:10%;
+      font-size:xx-large;
+      text-align: center;
+      color: white;
+      overflow-inline: visible ;
+    }
+
+    #PageTitle1{
+      top:10%;
+      background-image:url('./Docs/Resources/gb.svg');
+      background-repeat: no-repeat;
+    }
+    #PageTitle2{
+      top:90%;
+      background-image:url('./Docs/Resources/fr.svg');
+      background-repeat: no-repeat;
+    }
+ </style>
+</head>
+
+<body> 
+
+  <header>
+    <img class="FabIconHeader" src="./Docs/Resources/favicon.ico"  alt="Ibex" title="Ibex"  ></img>
+    <p> Chalet Ibex</p>
+    <img  src="./img/Outside/Summer/OutS0.jpg"  alt="Ibex" title="Ibex"  ></img>
+  </header>
+
+  <div class="Content">
+    <a  id="PageTitle1" href="./html/en/index.html">  </div> Welcome to Chalet Ibex</a>
+    <a  id="PageTitle2" href="./html/fr/index.html">  </div> Bienvenue dans le  Chalet Ibex</a>
+
+    <video   muted autoplay>
+      <source src="./Docs/Video/Ibex Intro.mp4" type="video/mp4">
+      Your browser does not support the video.
+    </video>  
+  
+  </div>  
+
+  <footer>
+    <a href="./html/en/Window.html"  target="_blank"> Chalet Ibex, Les Gets</a> 
+  </footer>   
+
+  <script src="./javascript/Navbar.js"></script>
+  <script src="./javascript/TextReader.js"></script>
+  <script src="./javascript/Title.js"></script>
+ 
+</body>
+</html>
+
